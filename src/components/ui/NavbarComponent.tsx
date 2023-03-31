@@ -13,12 +13,10 @@ export const NavbarComponent = () => {
       <Navbar isBordered variant={"static"}>
         <Navbar.Brand>
           <Image
-            src={
-              "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/132.svg"
-            }
+            src={"/pokeball.svg"}
             alt="icono de la app"
-            width={48}
-            height={48}
+            width={40}
+            height={40}
           />
 
           <NextLink href={"/"} style={{ display: "flex" }}>
